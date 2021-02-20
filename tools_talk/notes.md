@@ -10,8 +10,8 @@
 - [mypi](https://github.com/sujaymansingh/mypi)
 - [pylint](https://pypi.org/project/pylint/) (PEP8 Linter)
 - [Rich](https://github.com/willmcgugan/rich) (rich text formatting)
-- vim
-- VSCode, esp. for remote/pair development
+- [vim](https://www.vim.org/) (Yes, _that_ vim!)
+- [VSCode](https://code.visualstudio.com/) (esp. for remote/pair development)
 ## Debugging
 - [ipdb](https://github.com/gotcha/ipdb) (CLI Debugger)
 - [vimspector](https://github.com/puremourning/vimspector) (MultiLanguage TUI Debugger for VIM)
