@@ -1,0 +1,11 @@
+# Notes
+- Encoding standards have different bit-size limits and values, causing encoding issues without conversion
+- Knowing the encoding standard of the source text is necessary to proper conversion, especially to systems that don't support thte source
+- For characters that can't be converted exception can occur, resulting in ? where unencodeable characters occur
+- Helper functions can be used to replace unencodeable characters with similar chars in a map, e.g. `č` can be converted to `c` with a map to the UTF-8 or ASCII aprpoximate
+- Can also use locale libs to convert characters as needed to normalize characters
+-  Sorting is problematic due to bitwise sort operation at the lower-level
+-  Regex Problems
+   -  Example: Regexing `München` fron `123 München` can't be done with `re.findall('[a-zA-Z]')`, the `ü` is not in the match set, renddering Mnchen as the result
+      -  Solved with using `r'\p{L}+'` to catch all non-digit letters
+-  `icu` lib preffered for encoding due to multilocale support
