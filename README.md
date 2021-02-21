@@ -5,5 +5,5 @@ Gist for the conference can be found [HERE](https://gist.github.com/foosel/8f7d3
 
 ## Extra Links
 [Cosmic Python](http://www.cosmicpython.com/)<br>
-[Test-Driven Development in Python](https://www.obeythetestinggoat.com/)<br>
 [Syntactic Sugar](https://snarky.ca/tag/syntactic-sugar/)<br>
+[Test-Driven Development in Python](https://www.obeythetestinggoat.com/)<br>
