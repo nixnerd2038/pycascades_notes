@@ -5,5 +5,5 @@ Gist for the conference can be found [HERE](https://gist.github.com/foosel/8f7d3
 
 ## Extra Links
 [Cosmic Python](http://www.cosmicpython.com/) - Python Patterns in Apps<br>
-[Syntactic Sugar](https://snarky.ca/tag/syntactic-sugar/) - C-Level Python Deep-Dive<br>
+[Syntactic Sugar](https://snarky.ca/tag/syntactic-sugar/) - C-Level Python Architecture Deep-Dive<br>
 [Test-Driven Development in Python](https://www.obeythetestinggoat.com/) - Book on, well, test-driven development<br>
