@@ -1,6 +1,7 @@
 # Links
 [SlideDeck](https://speakerdeck.com/williln/what-you-should-know-about-django-rest-framework)
 [cdrf.co](http://www.cdrf.co/) (provides the framework viewsets, similar to Swagger schemas, that provide endpoint/sourcecode modeling for the metaclasses in DRF)
+# Notes
 ## General
 - ModelViewSets: Class-based views for CRULD in your DB
 - ModelMixins: endpoint actions (get/put/post/del)
