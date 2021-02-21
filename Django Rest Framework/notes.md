@@ -75,7 +75,7 @@ def get_serializer_context(self):
 ```
 
 ## *ModelMixins
-- Classes that instanatiate methods for CRULD
+ModelMixins are classes that instanatiate methods for CRULD, e.g. the CreateModelMixin adds the GET endpoint to a method.
 ### CreateModelMixin
 [CDRF Document](http://www.cdrf.co/3.9/rest_framework.mixins/CreateModelMixin.html)
 ```
@@ -127,12 +127,12 @@ class BookViewSet(ModelViewSet):
 
 ```
 The above code provides the following endpoints:
-    - GET /books/ #Get all books
-    - GET /books/{id} #Get a book by id
-    - POST /books/ #Add a new book
-    - PUT /books/{id} #Do an atomic replace on a book
-    - PATCH /books/{id} #Do an update on a book, inserting provided fields
-    - DELETE /books/{id} #Delete a book by id
+    - GET /books/ #Get all books<br>
+    - GET /books/{id} #Get a book by id<br>
+    - POST /books/ #Add a new book<br>
+    - PUT /books/{id} #Do an atomic replace on a book<br>
+    - PATCH /books/{id} #Do an update on a book, inserting provided fields<br>
+    - DELETE /books/{id} #Delete a book by id<br>
   
 ## Mix-n-Match Endpoints/Views
 If you don't want an endpoint, such as `Delete`, to not be available you can declare a custom class as a subset.
