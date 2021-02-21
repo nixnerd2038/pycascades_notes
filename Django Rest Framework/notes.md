@@ -1,5 +1,5 @@
 # Links
-[SlideDeck](https://speakerdeck.com/williln/what-you-should-know-about-django-rest-framework)
+[SlideDeck](https://speakerdeck.com/williln/what-you-should-know-about-django-rest-framework)<br>
 [cdrf.co](http://www.cdrf.co/) (provides the framework viewsets, similar to Swagger schemas, that provide endpoint/sourcecode modeling for the metaclasses in DRF)
 # Notes
 ## General
