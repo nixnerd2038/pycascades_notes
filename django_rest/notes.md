@@ -60,6 +60,7 @@ def get_serializer(self, *args, **kwargs):
     return serializer_class(*args, **kwargs)
 ```
 
+#### get_serializer_context() Example
 Override `get_serializer_context()` when you need to add something to the context so your serializer can use it
 
 ```
